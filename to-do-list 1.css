@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background: rgb(2, 51, 135);
+  color: white;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+ .first-container {
+  margin-top: 80px;
+  background-color: #3898db;
+  padding: 25px 40px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px rgba(29, 2, 2, 0.5);
+} 
+
+h1 {
+  margin-top: 50px;
+  font-size: 40px;
+  font-weight: 700;
+  padding-right: 65px;
+  margin-bottom: 16px;
+}
+
+input[type="text"] {
+  width: 300px;
+  height: 30px;
+  margin-right: 10px;
+  border-radius: 1.5rem;
+  border-block-start-color: brown;
+  padding: 0.5rem;
+  font-family: sans-serif;
+  font-size: 20px;
+}
+
+#taskInput {
+  width: 70%;
+  height: 40px;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 8px;
+  font-size: 20px;
+  outline: none;
+  margin-bottom: 1rem;
+}
+
+#btn1 {
+  background-color: #49f01f;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  outline: none;
+  border-radius: 16px;
+  height: 35px;
+  width: 70px;
+}
+
+#btn1:hover {
+  background-color: black;
+  border-style: none;
+  background-color: yellow;
+  color: black;
+}
+
+ul {
+  list-style-type: none;
+  text-align: left;
+  margin-top: 20px;
+}
+.completed {
+  color: rgb(170, 6, 6);
+  text-decoration: line-through;
+}
+
+input[type="checkbox"] {
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  border: none;
+  outline: none;
+}
+
+button {
+  cursor: pointer;
+  padding: 8px 8px;
+  font-size: 0.8rem;
+  border-radius: 50px;
+  background-color: yellow;
+  border: none;
+  outline: none;
+  margin: 0px 10px 0px 10px;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+}
+
+li {
+  padding: 8px 16px;
+  font-size: 20px;
+  border-radius: 8px;
+  margin-bottom: 16px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  animation: appear;
+  animation-duration: 0.5s;
+}
+
+@keyframes appear {
+  0% {
+    transform: scale(0);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+span {
+  width: 350px;
+  height: 50px;
+  margin-right: 10px;
+  border-radius: 1.5rem;
+  background-color: white;
+  border: 3px solid rgb(170, 206, 25);
+  color: black;
+  overflow:  hidden;
+  font-family: sans-serif;
+  font-size: 20px;
+  margin-left: 19px;
+  padding: 13px;
+}
+
+  
